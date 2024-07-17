@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Online Shopping site in India: Shop online for Mobiles, Books, Watches...</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./Assets/amazon-icon-logo-8F577E5C31-seeklogo.com.png">    
 </head>
 <body>
+    <div class="sidebar">
+        <div class="hdn-head">
+            <h2>Hello, Sign in</h2>
+        </div>
+        <div class="hdn-content">
+            <h3>Digital Content & Devices</h3>
+            <ul>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Kindle E-readers & Books</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Appstore</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+            </ul>
+            <div class="line"></div>
+            <hr>
+        </div>
+        <div class="hdn-content">
+            <h3>Shop by Department</h3>
+            <ul>
+                <div>
+                    <li>Electronics</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Computers</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Smart Home</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Art & Crafts</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+            </ul>
+            <div class="line"></div>
+            <hr>
+        </div>
+        <div class="hdn-content">
+            <h3>Program & Features</h3>
+            <ul>
+                <div>
+                    <li>Gift Cards</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Shop By Interest</li>
+                </div>
+                <div>
+                    <li>Amazon Live</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>International Shopping</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+            </ul>
+            <div class="line"></div>
+            <hr>
+        </div>
+        <div class="hdn-content">
+            <h3>Help & Settings</h3>
+            <ul>
+                <div>
+                    <li>Your Account</li>
+                </div>
+                <div>
+                    <li>English</li>
+                </div>
+                <div>
+                    <li>United States</li>
+                </div>
+                <div>
+                    <li>Customer Service</li>
+                </div>
+                <div>
+                    <li>Sign in</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <i class="fa-solid fa-xmark"></i>
     <nav>
         <a href="/"><img src="./Assets/amazon_logo.png" alt="amazon_logo" width="100px"></a>
         <div class="nav-address">
@@ -46,12 +127,12 @@
     </nav>
 
     <div class="nav-bottom">
-        <div>
-            <img src="./Assets/menu_icon.png" width="25px" alt="menu_icon">
-            <p>All</p>
+        <div id="menu_icon">
+            <img src="./Assets/menu_icon.png" width="25px" alt="menu_icon" >
+            <p class="All">All</p>
         </div>
         <p>Today's Deals</p>
-        <p>Customer Service</p>
+        <p>Customer Service</p> 
         <p>Registry</p>
         <p>Gift Cards</p>
         <p>Sell</p>
@@ -321,8 +402,64 @@
     </div>
 
     <footer>
-        <img src="./Assets/amazon_logo.png" width="100" alt="">
-        <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        <div class="backtop">
+            <span>Back to Top</span>
+        </div>
+        <div class="detail">
+            <div class="table">
+                <div>
+                    <div class="t-head">Get to know us</div>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>About Amazon</li>
+                        <li>Investors Relations</li>
+                        <li>Amazon Advices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+            
+                <div>
+                    <div class="t-head">Make Money with Us</div>
+                    <ul>
+                        <li>Sell product on Amazon</li>
+                        <li>Sell on Amazon Business</li>
+                        <li>Sell app on Amazon</li>
+                        <li>Become an Affiliate</li>
+                        <li>Advertise Your Products</li>
+                        <li>Self-Publish with Us</li>
+                        <li>Host an Amazon Hub</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="t-head">Amazon Payment Products</div>
+                    <ul>
+                        <li>Amazon Business Card</li>
+                        <li>Shop with Points</li>
+                        <li>Reload Your Balance</li>
+                        <li>Amazon Currency Converter</li>
+                    </ul>
+                </div>
+            
+                <div>
+                    <div class="t-head">Let Us Help You</div>
+                    <ul>
+                        <li>Amazon and COVID-19</li>
+                        <li>Your Account</li>
+                        <li>Your Orders</li>
+                        <li>Shipping Rates & Policies</li>
+                        <li>Returns & Replacements</li>
+                        <li>Manage Your Content and Devices</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+        <div class="line"></div>
+        <div class="copy">
+            <span>&copy; Designed by Suraj Gupta(Developer Dude)</span>
+        </div>
     </footer>
     <script src="./script.js"></script>
 </body>
